@@ -1,13 +1,13 @@
 <p align="center">
- <a><img width=220px height=200px src="logo.png" alt="Project logo"></a>
+ <a><img width=220px height=200px src="https://raw.githubusercontent.com/MrJacob12/StringProgressBar/master/logo.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">StringProgressBar</h3>
 
 <div align="center">
 
-[![GitHub Issues](https://img.shields.io/github/issues/MrJacob12/TextProgressBar.svg)](https://github.com/MrJacob12/TextProgressBar/issues)
-[![License](https://img.shields.io/github/license/MrJacob12/TextProgressBar.svg)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/MrJacob12/StringProgressBar.svg)](https://github.com/MrJacob12/StringProgressBar/issues)
+[![License](https://img.shields.io/github/license/MrJacob12/StringProgressBar.svg)](/LICENSE)
 
 </div>
 
@@ -67,7 +67,10 @@ Give an example
 ``` -->
 
 ## 🎈 Usage <a name="usage"></a>
-
+```python
+await channel.send(progressBar.createBoxDiscord(200, 365, 20))
+```
+<a><img src="./img/s1.png" alt="Project logo"></a>
 
 <!-- 
 ## 🚀 Deployment <a name = "deployment"></a> 
