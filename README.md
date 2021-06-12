@@ -70,7 +70,7 @@ Give an example
 ```python
 await channel.send(progressBar.createBoxDiscord(200, 365, 20))
 ```
-<a><img src="./img/s1.png" alt="Project logo"></a>
+<a><img src="https://raw.githubusercontent.com/MrJacob12/StringProgressBar/master/img/s1.PNG" alt="Project logo"></a>
 
 <!-- 
 ## 🚀 Deployment <a name = "deployment"></a> 
