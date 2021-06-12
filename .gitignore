@@ -6,6 +6,7 @@ StringProgressBar.egg-info
 dist
 build
 .vscode
+upload.bat
 # C extensions
 *.so
 
