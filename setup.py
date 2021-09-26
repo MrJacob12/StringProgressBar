@@ -10,12 +10,12 @@ classifiers = [
 
 setup(
   name='StringProgressBar',
-  version='1.0.1',
+  version='1.1.0',
   description='Simple string progress bar made for discord bots. Its usable everywhere.',
-  long_description= open('README.md', encoding="utf8").read() + '\n\n' + open('CHANGELOG.txt', encoding="utf8").read(),
+  long_description= open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   long_description_content_type='text/markdown',
-  url='https://github.com/MrJacob12/TextProgressBar',  
-  author='MrJacob',
+  url='https://github.com/MrJacob12/StringProgressBar',  
+  author='MrJacob, Sparker-99',
   author_email='jacob@fern.fun',
   license='MIT', 
   classifiers=classifiers,
