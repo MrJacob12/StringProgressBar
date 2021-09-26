@@ -1,5 +1,5 @@
 <p align="center">
- <a><img width=220px height=200px src="https://raw.githubusercontent.com/MrJacob12/StringProgressBar/master/logo.png" alt="Project logo"></a>
+ <a><img width=270px height=100px src="https://i.gyazo.com/eab981f7ae88b795346f6df4deca80e7.png" alt="Project logo"></a>
 </p>
 
 <h1 align="center">StringProgressBar</h1>
