@@ -2,7 +2,7 @@
  <a><img width=220px height=200px src="https://raw.githubusercontent.com/MrJacob12/StringProgressBar/master/logo.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">StringProgressBar</h3>
+<h1 align="center">StringProgressBar</h1>
 
 <div align="center">
 
@@ -24,16 +24,14 @@
 ## 🧐 About <a name = "about"></a>
 Simple string progress bar made for discord bots. Its usable everywhere.
 
+### Advantages
+
+* Simple
+* Lightweight
+* Fully customizable
+* 2 Different Styles
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
-<!-- 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. -->
-
-<!-- 
-### Prerequisites <a name = "prerequisites"></a>
-
-* [Python](https://www.python.org)
-* [Node.js](https://nodejs.org/en/) -->
-
 
 ### Installing
 
@@ -43,50 +41,57 @@ A step by step series of examples that tell you how to get a development env run
 pip install StringProgressBar
 ```
 
+## Splitbar Usage <a name="usage"></a>
 
-<!-- End with an example of getting some data out of the system or using it for a little demo. -->
+![](https://i.ibb.co/5Yz89gM/splitbar.png)
 
-<!-- ## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-``` -->
-
-## 🎈 Usage <a name="usage"></a>
 ```python
-await channel.send(progressBar.createBoxDiscord(200, 365, 20))
+from StringProgressBar import progressBar
+# Assaign values to total and current values
+total = 100
+current = 50
+# First two arguments are mandatory
+bardata = progressBar.splitBar(total, current, [optional parameters])
+# Get the progressbar
+print(bardata[0])
+# Get the percentage
+print(bardata[1])
 ```
-<a><img src="https://raw.githubusercontent.com/MrJacob12/StringProgressBar/master/img/s1.PNG" alt="Project logo"></a>
 
-<!-- 
-## 🚀 Deployment <a name = "deployment"></a> 
+## Filledbar Usage <a name="usage"></a>
 
-Add additional notes about how to deploy this on a live system. -->
+![](https://i.ibb.co/ctTB8mp/filledbar.png)
+
+```python
+from StringProgressBar import progressBar
+# Assaign values to total and current values
+total = 100
+current = 50
+# First two arguments are mandatory
+bardata = progressBar.filledBar(total, current, [optional parameters])
+# Get the progressbar
+print(bardata[0])
+# Get the percentage
+print(bardata[1])
+```
+
+## Optional Parameters
+
+|Parameter name|     Type|    Default|                         Description|
+|--------------|     ----|    :-----:|    --------------------------------|
+|size|            Integer|         40|    Determines the length of the bar|
+|line|             String|    ▬ and □|    Determines the Static part of the bar|
+|slider|           String|   🔘 and ■|    Determines the Progressive part of the bar|
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 * [Python](https://www.python.org)
+
+## 📝 License
+
+This project is [MIT](https://github.com/MrJacob12/StringProgressBar/blob/master/LICENSE) licensed.
 
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@MrJacob12](https://github.com/mrjacob12)
-
-<!-- ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References -->
+- [@Sparker-99](https://github.com/Sparker-99)
